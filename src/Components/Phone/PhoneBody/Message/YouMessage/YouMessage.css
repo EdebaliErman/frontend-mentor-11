@@ -5,19 +5,19 @@
         @apply flex flex-col justify-end items-end
     }
     .img-bar{
-        @apply flex justify-center items-center gap-4
+        @apply flex justify-center items-center gap-2
     }
     .img-bar img{
-        @apply w-16 h-16 rounded-2xl
+        @apply w-8 h-8 rounded-xl
     }
     .span-bar{
-        @apply flex flex-col gap-3 my-3 mb-8
+        @apply flex flex-col gap-3 my-2 mb-4
     }
     .YouMessage span{
-        @apply p-3 bg-white rounded-2xl text-black 
+        @apply p-3 bg-white rounded-xl text-black 
         font-sans font-normal
-        text-xs
-        w-48
+        text-[6px]
+        w-28
         shadow-lg
         
     }
