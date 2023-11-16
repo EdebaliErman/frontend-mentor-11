@@ -1,11 +1,12 @@
 @tailwind components;
 
-@layer components {
-    .he-message{
+@layer components{
+    .SendMessage{
         @apply flex flex-col gap-2 justify-start items-start
-        my-3 mb-8
+        my-3 mb-4
     }
-    .he-message span{
+
+    .SendMessage span{
         @apply p-3 bg-[#ede0f7] rounded-2xl text-purple-500 
         font-sans font-medium
         text-xs

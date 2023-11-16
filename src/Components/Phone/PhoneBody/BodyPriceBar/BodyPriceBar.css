@@ -1,0 +1,27 @@
+@tailwind components;
+
+@layer components {
+    .BodyPriceBar {
+        @apply flex flex-col justify-start items-start
+    }
+
+    .textbox {
+        @apply p-3 bg-[#ede0f7] rounded-2xl text-purple-500 font-sans font-medium text-xs w-[189px]
+    }
+    .price-bar{
+        @apply flex  justify-between items-center
+         w-60 p-4 my-2 
+         text-white
+         rounded-2xl rounded-bl-lg
+         bg-gradient-to-r to-[#913aff] from-[#c640ff]
+    }
+    .price-bar span{
+        @apply flex justify-center items-center text-2xl font-sans font-bold
+    }
+    .BodyPriceBar span svg{
+        @apply ml-[-3rem]
+    }
+    .time-bar{
+        @apply flex justify-center items-center gap-3 text-sm font-sans
+    }
+}
