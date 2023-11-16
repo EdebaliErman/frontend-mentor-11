@@ -4,7 +4,8 @@
     .Header{
         @apply flex justify-between items-center 
         bg-gradient-to-r from-[#913aff] to-[#c640ff] 
-        p-4 pt-8 rounded-3xl rounded-b-lg shadow-xl
+        p-4 pt-12 rounded-3xl rounded-b-lg shadow-xl
+        relative
     }
     .Header svg{
         @apply text-white
