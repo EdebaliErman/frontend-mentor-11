@@ -4,7 +4,7 @@ function Header() {
     return (
         <div className='Header'>
             <svg className=' 
-            absolute top-0  mx-12   
+            absolute top-0  mx-4   
             w-[60%] h-8
             rounded-full rounded-t-none  
             bg-white'>
