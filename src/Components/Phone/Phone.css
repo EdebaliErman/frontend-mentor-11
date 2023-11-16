@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+    .Phone {
+        @apply border-[16px] border-white rounded-3xl w-96 shadow-2xl flex flex-col
+    }
+}

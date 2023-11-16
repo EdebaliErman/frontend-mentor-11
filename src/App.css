@@ -2,6 +2,6 @@
 
 @layer base{
   html,body{
-    @apply flex justify-center items-center h-full w-full
+    @apply flex justify-center items-center h-full w-full bg-[#f7f5fa]
   }
 }

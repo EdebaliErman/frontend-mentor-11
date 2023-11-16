@@ -1,12 +1,11 @@
 import React from 'react'
-import Header from './Header/Header'
 import PhoneBody from './PhoneBody/PhoneBody'
-
+import "./Phone.css"
 function Phone() {
   return (
-    <div>
-      <Header/>
-      <PhoneBody/>
+    <div className='Phone'>
+     
+      <PhoneBody />
     </div>
   )
 }
