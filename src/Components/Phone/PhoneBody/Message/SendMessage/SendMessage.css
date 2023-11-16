@@ -3,13 +3,13 @@
 @layer components{
     .SendMessage{
         @apply flex flex-col gap-2 justify-start items-start
-        my-3 mb-4
+        my-3 mb-4 relative
     }
-
-    .SendMessage span{
-        @apply p-3 bg-[#ede0f7] rounded-2xl text-purple-500 
-        font-sans font-medium
-        text-xs
-        w-48
+    
+    .SendMessage input{
+        @apply focus:outline-none bg-white p-3 w-full rounded-full
+    }
+    .SendMessage svg{
+        @apply absolute top-0 right-0 w-10 h-10 my-1 mx-3 bg-purple-950 text-white p-1 rounded-full font-extrabold 
     }
 }
