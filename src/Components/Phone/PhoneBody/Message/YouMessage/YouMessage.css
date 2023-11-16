@@ -1,0 +1,23 @@
+@tailwind components;
+
+@layer components {
+    .YouMessage{
+        @apply flex flex-col justify-end items-end
+    }
+    .img-bar{
+        @apply flex justify-center items-center gap-4
+    }
+    .img-bar img{
+        @apply w-16 h-16 rounded-2xl
+    }
+    .span-bar{
+        @apply flex flex-col gap-3 my-3 mb-8
+    }
+    .YouMessage span{
+        @apply p-3 bg-white rounded-2xl text-black 
+        font-sans font-normal
+        text-xs
+        w-48
+        
+    }
+}

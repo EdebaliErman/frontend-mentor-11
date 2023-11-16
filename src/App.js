@@ -6,7 +6,7 @@ import SvgBack from './Components/SvgBack/SvgBack';
 function App() {
   return (
     <div className="App">
-      <SvgBack/>
+      {/* <SvgBack/> */}
       <Phone/>
       <InfoText/>
     </div>

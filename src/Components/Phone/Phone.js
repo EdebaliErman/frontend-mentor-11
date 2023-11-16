@@ -3,8 +3,7 @@ import PhoneBody from './PhoneBody/PhoneBody'
 import "./Phone.css"
 function Phone() {
   return (
-    <div className='Phone'>
-     
+    <div className='Phone z-30'>
       <PhoneBody />
     </div>
   )
