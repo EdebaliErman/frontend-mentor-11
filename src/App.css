@@ -5,6 +5,6 @@
     @apply flex justify-center items-center h-full w-full bg-[#f7f5fa] 
   }
   .App{
-    @apply flex justify-center items-center  gap-56
+    @apply flex justify-center items-center  gap-40
   }
 }
