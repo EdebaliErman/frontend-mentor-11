@@ -2,6 +2,8 @@
 
 @layer components {
     .Phone {
-        @apply border-[16px] border-white rounded-3xl w-56 shadow-2xl flex flex-col
+        @apply 
+        z-50  relative bg-white 
+        border-[16px] border-white rounded-3xl w-72 shadow-2xl flex flex-col
     }
 }

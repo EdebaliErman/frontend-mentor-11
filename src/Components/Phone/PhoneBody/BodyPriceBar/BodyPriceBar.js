@@ -9,12 +9,12 @@ function BodyPriceBar() {
             <div className='my-4'>
                 <div className='price-bar'>
                     <div className='time-bar'>
-                        <svg className='w-8 h-8 rounded-full border-2 opacity-30'></svg>
+                        <svg className='w-4 h-4 rounded-full border-2 opacity-30'></svg>
                         <h4>30 minute walk</h4>
                     </div>
                     <span>
                         <svg fill="#fff" version="1.1" id="Capa_1" link="http://www.w3.org/1999/xlink"
-                            width="24px" height="24px" viewBox="0 0 31.371 31.371"
+                            width="12px" height="12px" viewBox="0 0 31.371 31.371"
                             space="preserve">
                             <g>
                                 <path d="M24.26,20.34c0,3.42-2.423,6.342-6.845,7.111v3.92h-3.768v-3.648c-2.578-0.117-5.076-0.811-6.537-1.654l1.154-4.5
@@ -24,19 +24,18 @@ function BodyPriceBar() {
 		C22.416,14.762,24.26,16.877,24.26,20.34z"/>
                             </g>
                         </svg>
-                        <h4 className='ml-[-0.3rem] mb-1'>29</h4>
+                        <h4 className='ml-[-0.2rem] mb-0'>29</h4>
 
                     </span>
                 </div>
                 <div className='price-bar'>
                     <div className='time-bar'>
-                        <svg className='w-8 h-8 rounded-full border-2 opacity-30'></svg>
-                        <h4>1 hour walk </h4>
+                        <svg className='w-4 h-4 rounded-full border-2 opacity-30'></svg>
+                        <h4>30 minute walk</h4>
                     </div>
                     <span>
-                    <svg 
-                    fill="#fff" version="1.1" id="Capa_1" link="http://www.w3.org/1999/xlink"
-                            width="24px" height="24px" viewBox="0 0 31.371 31.371"
+                        <svg fill="#fff" version="1.1" id="Capa_1" link="http://www.w3.org/1999/xlink"
+                            width="12px" height="12px" viewBox="0 0 31.371 31.371"
                             space="preserve">
                             <g>
                                 <path d="M24.26,20.34c0,3.42-2.423,6.342-6.845,7.111v3.92h-3.768v-3.648c-2.578-0.117-5.076-0.811-6.537-1.654l1.154-4.5
@@ -46,10 +45,12 @@ function BodyPriceBar() {
 		C22.416,14.762,24.26,16.877,24.26,20.34z"/>
                             </g>
                         </svg>
-                        <h4 className='ml-[-0.3rem] mb-1'>49</h4>
+                        <h4 className='ml-[-0.2rem] mb-0'>49</h4>
+
                     </span>
                 </div>
             </div>
+
         </div>
     )
 }
