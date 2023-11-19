@@ -6,7 +6,7 @@
   }
   .App{
     @apply flex justify-center items-center  gap-40 flex-wrap
-    lg:flex-col
+    lg:flex-col lg:pt-56
 
   }
 }
