@@ -5,6 +5,6 @@
         @apply 
         z-50  relative bg-white 
         border-[16px] border-white rounded-3xl w-72 shadow-2xl flex flex-col
-        lg:top-56 lg:m-12 
+        lg:top-56  
     }
 }

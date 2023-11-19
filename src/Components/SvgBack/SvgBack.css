@@ -4,5 +4,7 @@
     .svgback {
         @apply z-10 bg-gradient-to-t from-[#913aff] to-[#c640ff] w-[25.00%] h-[85%] top-0 left-0 fixed rounded-b-[19.8rem] lg:rounded-br-full
         lg:w-1/2 lg:h-1/2
+        /** Geçiş Animasyonu  */
+        transition duration-300 ease-in delay-150
     }
 }
