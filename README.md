@@ -1,3 +1,9 @@
+# Desktop
+<img src="public/Assets/screencapture-localhost-3000-2023-11-19-15_35_43.png" alt="no.png">
+
+# Mobil
+<img src="public/Assets/screencapture-localhost-3000-2023-11-19-15_35_21.png" alt="no.png">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

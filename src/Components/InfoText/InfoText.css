@@ -8,8 +8,10 @@
 
     .infoText h1 {
         @apply text-6xl my-12 font-sans  font-bold text-[#3f2552]
+        lg:text-[2.5rem] lg:mt-20
     }
     .infoText h5 {
         @apply text-2xl text-gray-500 opacity-60
+        lg:text-xl
     }
 }
