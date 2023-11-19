@@ -1,0 +1,15 @@
+@tailwind components;
+
+@layer components {
+    .infoText {
+        @apply w-1/3 mb-28 relative z-30 
+        lg:w-full lg:text-center lg:p-12
+    }
+
+    .infoText h1 {
+        @apply text-6xl my-12 font-sans  font-bold text-[#3f2552]
+    }
+    .infoText h5 {
+        @apply text-2xl text-gray-500 opacity-60
+    }
+}
